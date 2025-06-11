@@ -3,371 +3,332 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Thibaut Mermoz Grekovoungbo - Portfolio</title>
+    <title>École d'Excellence - Formations en Informatique</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
 </head>
 <body>
-    <header class="header">
-        <nav class="nav">
-            <div class="nav-brand">
-                <h2>TMG</h2>
-            </div>
-            <ul class="nav-menu">
-                <li><a href="#about" class="nav-link">À propos</a></li>
-                <li><a href="#experience" class="nav-link">Expérience</a></li>
-                <li><a href="#education" class="nav-link">Formation</a></li>
-                <li><a href="#skills" class="nav-link">Compétences</a></li>
-                <li><a href="#projects" class="nav-link">Projets</a></li>
-                <li><a href="#contact" class="nav-link">Contact</a></li>
-            </ul>
-            <div class="nav-actions">
-                <button class="theme-toggle" id="themeToggle" aria-label="Changer le thème">
-                    <span class="theme-icon sun-icon">☀️</span>
-                    <span class="theme-icon moon-icon">🌙</span>
-                </button>
-                <div class="nav-toggle">
-                    <span></span>
-                    <span></span>
-                    <span></span>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <img src="images/logo_iai.jpg" alt="Logo de l'école"  style="border-radius: 100%; width: 60px; height: 60px; object-fit: cover;">
+                    <h1>Institut Africain d'Informatique</h1>
                 </div>
+                <nav>
+                    <ul>
+                        <li><a href="#home">Accueil</a></li>
+                        <li><a href="#about">À propos</a></li>
+                        <li><a href="#promotions">Promotions</a></li>
+                        <li><a href="#specialties">Filières</a></li>
+                        <li><a href="#students">Étudiants</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
             </div>
-        </nav>
+        </div>
     </header>
 
-    <main>
-        <!-- Hero Section -->
-        <section class="hero">
-            <div class="container">
-                <div class="hero-content">
-                    <div class="hero-text">
-                        <h1 class="hero-title">
-                            <span class="text-gradient">Thibaut Mermoz</span><br>
-                            Grekovoungbo
-                        </h1>
-                        <p class="hero-subtitle">Analyste Programmeur</p>
-                        <p class="hero-description">
-                            Passionné par le développement logiciel et l'analyse de données, 
-                            je transforme les idées complexes en solutions numériques élégantes et fonctionnelles.
-                        </p>
-                        <div class="hero-buttons">
-                            <a href="#contact" class="btn btn-primary">Me contacter</a>
-                            <a href="#projects" class="btn btn-secondary">Voir mes projets</a>
-                        </div>
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h2>Formez-vous aux métiers de l'informatique</h2>
+            <p>Découvrez nos formations d'excellence en ingénierie informatique, développement logiciel et systèmes d'information pour construire votre avenir professionnel.</p>
+            <a href="#promotions" class="btn">Découvrir nos formations</a>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="container">
+            <div class="section-title">
+                <h2>Notre École</h2>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Une formation d'excellence en informatique</h3>
+                    <p>Fondée en 2005, notre école s'est rapidement imposée comme un acteur majeur dans la formation des professionnels de l'informatique. Nous combinons théorie et pratique pour offrir à nos étudiants une formation complète et adaptée aux besoins du marché.</p>
+                    <p>Notre pédagogie innovante et nos partenariats avec les entreprises leaders du secteur garantissent un taux d'insertion professionnelle de 95% dans les 6 mois suivant l'obtention du diplôme.</p>
+                    <p>Avec un corps professoral composé d'experts reconnus dans leur domaine et des infrastructures modernes, nous offrons un environnement d'apprentissage stimulant et propice à l'épanouissement de nos étudiants.</p>
+                </div>
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Étudiants en cours">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="promotions" id="promotions">
+        <div class="container">
+            <div class="section-title">
+                <h2>Nos Promotions</h2>
+            </div>
+            <div class="promotion-grid">
+                <div class="promotion-card">
+                    <img src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Promotion 2023">
+                    <div class="promotion-info">
+                        <h3>Promotion 2023</h3>
+                        <p>Découvrez les étudiants diplômés en 2023 et leurs spécialisations.</p>
+                        <a href="#" class="btn-small">Voir détails</a>
                     </div>
-                    <div class="hero-image">
-                        <div class="profile-card">
-                            <div class="profile-avatar">
-                                <div class="avatar-placeholder">TG</div>
-                            </div>
-                            <div class="profile-info">
-                                <h3>Développeur Full-Stack</h3>
-                                <p>3+ années d'expérience</p>
-                            </div>
-                        </div>
+                </div>
+                <div class="promotion-card">
+                    <img src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Promotion 2022">
+                    <div class="promotion-info">
+                        <h3>Promotion 2022</h3>
+                        <p>Découvrez les étudiants diplômés en 2022 et leurs spécialisations.</p>
+                        <a href="#" class="btn-small">Voir détails</a>
+                    </div>
+                </div>
+                <div class="promotion-card">
+                    <img src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Promotion 2021">
+                    <div class="promotion-info">
+                        <h3>Promotion 2021</h3>
+                        <p>Découvrez les étudiants diplômés en 2021 et leurs spécialisations.</p>
+                        <a href="#" class="btn-small">Voir détails</a>
+                    </div>
+                </div>
+                <div class="promotion-card">
+                    <img src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Promotion 2020">
+                    <div class="promotion-info">
+                        <h3>Promotion 2020</h3>
+                        <p>Découvrez les étudiants diplômés en 2020 et leurs spécialisations.</p>
+                        <a href="#" class="btn-small">Voir détails</a>
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <!-- About Section -->
-        <section id="about" class="about">
-            <div class="container">
-                <h2 class="section-title">À propos de moi</h2>
+    <section class="specialties" id="specialties">
+        <div class="container">
+            <div class="section-title">
+                <h2>Nos Filières de Formation</h2>
+            </div>
+            <div class="specialty-tabs">
+                <button class="tab-btn active" data-tab="ing">Ingénieur de Conception en SI</button>
+                <button class="tab-btn" data-tab="ap">Analyste Programmeur</button>
+                <button class="tab-btn" data-tab="miage">MIAGE</button>
+                <button class="tab-btn" data-tab="master">Master Pro</button>
+            </div>
+            <div class="tab-content active" id="ing">
                 <div class="about-content">
                     <div class="about-text">
-                        <p>
-                            Je suis un analyste programmeur passionné avec une solide formation en mathématiques 
-                            et en programmation. Mon parcours m'a permis d'acquérir une expertise technique 
-                            diversifiée et une approche analytique des problèmes complexes.
-                        </p>
-                        <p>
-                            Actuellement en licence d'Analyse et Programmation, je continue d'approfondir 
-                            mes connaissances tout en appliquant mes compétences dans des projets concrets 
-                            et innovants.
-                        </p>
-                        <div class="contact-info">
-                            <div class="contact-item">
-                                <span class="icon">📧</span>
-                                <span>thibautgrekov@gmail.com</span>
-                            </div>
-                            <div class="contact-item">
-                                <span class="icon">📱</span>
-                                <span>074966707 / 062938498</span>
-                            </div>
-                            <div class="contact-item">
-                                <span class="icon">📍</span>
-                                <span>BP:2263 Libreville-IAI</span>
-                            </div>
-                        </div>
+                        <h3>Ingénieur de Conception en Systèmes d'Information</h3>
+                        <p>Cette formation forme des ingénieurs capables de concevoir, développer et mettre en œuvre des systèmes d'information complexes pour les entreprises.</p>
+                        <p><strong>Durée:</strong> 5 ans</p>
+                        <p><strong>Débouchés:</strong> Architecte SI, Chef de projet SI, Consultant ERP, Data Manager</p>
+                        <p><strong>Compétences acquises:</strong> Conception de SI, Gestion de projet, Bases de données, Cloud Computing, Sécurité informatique</p>
+                        <a href="#students" class="btn-small">Voir les étudiants</a>
                     </div>
-                    <div class="about-stats">
-                        <div class="stat-card">
-                            <h3>3+</h3>
-                            <p>Années d'expérience</p>
-                        </div>
-                        <div class="stat-card">
-                            <h3>10+</h3>
-                            <p>Technologies maîtrisées</p>
-                        </div>
-                        <div class="stat-card">
-                            <h3>5+</h3>
-                            <p>Projets réalisés</p>
-                        </div>
+                    <div class="about-image">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Ingénieur SI">
                     </div>
                 </div>
             </div>
-        </section>
-
-        <!-- Experience Section -->
-        <section id="experience" class="experience">
-            <div class="container">
-                <h2 class="section-title">Expérience professionnelle</h2>
-                <div class="timeline">
-                    <div class="timeline-item">
-                        <div class="timeline-marker"></div>
-                        <div class="timeline-content">
-                            <div class="timeline-header">
-                                <h3>Stage Académique</h3>
-                                <span class="company">KNETWORKING, LALALA</span>
-                                <span class="period">2024</span>
-                            </div>
-                            <ul class="timeline-tasks">
-                                <li>Conception et Programmation d'applications</li>
-                                <li>Configuration et déploiement de réseaux</li>
-                                <li>Mise en place d'infrastructure microtic</li>
-                            </ul>
-                        </div>
+            <div class="tab-content" id="ap">
+                <div class="about-content">
+                    <div class="about-text">
+                        <h3>Analyste Programmeur</h3>
+                        <p>Formation intensive axée sur le développement logiciel et l'analyse des besoins utilisateurs pour créer des applications sur mesure.</p>
+                        <p><strong>Durée:</strong> 3 ans</p>
+                        <p><strong>Débouchés:</strong> Développeur Full-Stack, Analyste programmeur, Concepteur d'applications</p>
+                        <p><strong>Compétences acquises:</strong> Programmation (Java, Python, C#), Développement web, Bases de données, Méthodes agiles</p>
+                        <a href="#students" class="btn-small">Voir les étudiants</a>
                     </div>
-                    
-                    <div class="timeline-item">
-                        <div class="timeline-marker"></div>
-                        <div class="timeline-content">
-                            <div class="timeline-header">
-                                <h3>Maintenancier</h3>
-                                <span class="company">YAMATECH, Bangui</span>
-                                <span class="period">2021 - 2022</span>
-                            </div>
-                            <ul class="timeline-tasks">
-                                <li>Maintenance matérielle des ordinateurs</li>
-                                <li>Réparation et maintenance des smartphones</li>
-                                <li>Diagnostic et résolution de problèmes techniques</li>
-                            </ul>
-                        </div>
-                    </div>
-                    
-                    <div class="timeline-item">
-                        <div class="timeline-marker"></div>
-                        <div class="timeline-content">
-                            <div class="timeline-header">
-                                <h3>Assistant au Cybert Café</h3>
-                                <span class="company">SOCATEL (Centrafrique)</span>
-                                <span class="period">2020 - 2021</span>
-                            </div>
-                            <ul class="timeline-tasks">
-                                <li>Gestion et accompagnement des clients</li>
-                                <li>Maintenance logicielle des ordinateurs</li>
-                                <li>Support technique utilisateur</li>
-                            </ul>
-                        </div>
+                    <div class="about-image">
+                        <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Analyste Programmeur">
                     </div>
                 </div>
             </div>
-        </section>
-
-        <!-- Education Section -->
-        <section id="education" class="education">
-            <div class="container">
-                <h2 class="section-title">Formation</h2>
-                <div class="education-grid">
-                    <div class="education-card">
-                        <div class="education-icon">🎓</div>
-                        <h3>Licence en Analyse et Programmation</h3>
-                        <p class="education-period">2023 - 2024 (en cours)</p>
-                        <p class="education-description">
-                            Spécialisation en développement logiciel et analyse de systèmes
-                        </p>
+            <div class="tab-content" id="miage">
+                <div class="about-content">
+                    <div class="about-text">
+                        <h3>MIAGE (Méthodes Informatiques Appliquées à la Gestion des Entreprises)</h3>
+                        <p>Formation à double compétence en informatique et gestion, préparant aux métiers à l'intersection de ces deux domaines.</p>
+                        <p><strong>Durée:</strong> 3 ans</p>
+                        <p><strong>Débouchés:</strong> Consultant en systèmes d'information, Chef de projet ERP, Business Analyst</p>
+                        <p><strong>Compétences acquises:</strong> Gestion de projet, Comptabilité, Systèmes d'information de gestion, Développement d'applications métiers</p>
+                        <a href="#students" class="btn-small">Voir les étudiants</a>
                     </div>
-                    
-                    <div class="education-card">
-                        <div class="education-icon">💻</div>
-                        <h3>DUT en Programmation</h3>
-                        <p class="education-period">2022 - 2023</p>
-                        <p class="education-description">
-                            Formation technique en développement d'applications
-                        </p>
-                    </div>
-                    
-                    <div class="education-card">
-                        <div class="education-icon">📊</div>
-                        <h3>Licence en Mathématiques</h3>
-                        <p class="education-period">2019 - 2022</p>
-                        <p class="education-description">
-                            Fondements mathématiques et logique algorithmique
-                        </p>
+                    <div class="about-image">
+                        <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="MIAGE">
                     </div>
                 </div>
             </div>
-        </section>
+            <div class="tab-content" id="master">
+                <div class="about-content">
+                    <div class="about-text">
+                        <h3>Master Professionnel en Informatique</h3>
+                        <p>Formation de haut niveau spécialisée dans un domaine précis de l'informatique avec une forte orientation professionnelle.</p>
+                        <p><strong>Durée:</strong> 2 ans</p>
+                        <p><strong>Spécialités:</strong> Intelligence Artificielle, Cybersécurité, Data Science, Cloud Computing</p>
+                        <p><strong>Compétences acquises:</strong> Expertise dans le domaine de spécialisation, Recherche appliquée, Management de projets complexes</p>
+                        <a href="#students" class="btn-small">Voir les étudiants</a>
+                    </div>
+                    <div class="about-image">
+                        <img src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Master Pro">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-        <!-- Skills Section -->
-        <section id="skills" class="skills">
-            <div class="container">
-                <h2 class="section-title">Compétences techniques</h2>
-                <div class="skills-grid">
-                    <div class="skill-category">
-                        <h3>Langages de programmation</h3>
-                        <div class="skill-tags">
+    <section class="students" id="students">
+        <div class="container">
+            <div class="section-title">
+                <h2>Nos Étudiants</h2>
+            </div>
+            <div class="student-grid">
+                <div class="student-card">
+                    <img src="https://randomuser.me/api/portraits/women/43.jpg" alt="Étudiante" class="student-img">
+                    <div class="student-info">
+                        <h3>Sophie Martin</h3>
+                        <p>Ingénieur de Conception en SI - Promotion 2023</p>
+                        <p>Nationalité: Française</p>
+                        <div class="student-skills">
+                            <span class="skill-tag">Java</span>
+                            <span class="skill-tag">Cloud</span>
+                            <span class="skill-tag">Architecture SI</span>
+                            <span class="skill-tag">DevOps</span>
+                        </div>
+                        <div class="social-links">
+                            <a href="#" title="GitHub"><i class="fab fa-github"></i></a>
+                            <a href="#" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                            <a href="#" title="Portfolio"><i class="fas fa-globe"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="student-card">
+                    <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Étudiant" class="student-img">
+                    <div class="student-info">
+                        <h3>Thomas Dubois</h3>
+                        <p>Analyste Programmeur - Promotion 2023</p>
+                        <p>Nationalité: Belge</p>
+                        <div class="student-skills">
                             <span class="skill-tag">Python</span>
-                            <span class="skill-tag">PHP</span>
-                            <span class="skill-tag">C</span>
-                            <span class="skill-tag">C++</span>
-                            <span class="skill-tag">HTML</span>
-                            <span class="skill-tag">CSS</span>
+                            <span class="skill-tag">JavaScript</span>
+                            <span class="skill-tag">React</span>
+                            <span class="skill-tag">Node.js</span>
+                        </div>
+                        <div class="social-links">
+                            <a href="#" title="GitHub"><i class="fab fa-github"></i></a>
+                            <a href="#" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                            <a href="#" title="Portfolio"><i class="fas fa-globe"></i></a>
                         </div>
                     </div>
-                    
-                    <div class="skill-category">
-                        <h3>Frameworks & Outils</h3>
-                        <div class="skill-tags">
-                            <span class="skill-tag">Laravel</span>
-                            <span class="skill-tag">Bootstrap</span>
-                            <span class="skill-tag">Photoshop</span>
+                </div>
+                <div class="student-card">
+                    <img src="https://randomuser.me/api/portraits/women/65.jpg" alt="Étudiante" class="student-img">
+                    <div class="student-info">
+                        <h3>Fatoumata Diop</h3>
+                        <p>MIAGE - Promotion 2022</p>
+                        <p>Nationalité: Sénégalaise</p>
+                        <div class="student-skills">
+                            <span class="skill-tag">ERP</span>
+                            <span class="skill-tag">Gestion</span>
+                            <span class="skill-tag">SQL</span>
+                            <span class="skill-tag">Power BI</span>
+                        </div>
+                        <div class="social-links">
+                            <a href="#" title="GitHub"><i class="fab fa-github"></i></a>
+                            <a href="#" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                            <a href="#" title="Portfolio"><i class="fas fa-globe"></i></a>
                         </div>
                     </div>
-                    
-                    <div class="skill-category">
-                        <h3>Base de données</h3>
-                        <div class="skill-tags">
-                            <span class="skill-tag">MySQL</span>
-                            <span class="skill-tag">Oracle</span>
+                </div>
+                <div class="student-card">
+                    <img src="https://randomuser.me/api/portraits/men/75.jpg" alt="Étudiant" class="student-img">
+                    <div class="student-info">
+                        <h3>Jean-Luc Bernard</h3>
+                        <p>Master Pro IA - Promotion 2023</p>
+                        <p>Nationalité: Suisse</p>
+                        <div class="student-skills">
+                            <span class="skill-tag">Machine Learning</span>
+                            <span class="skill-tag">TensorFlow</span>
+                            <span class="skill-tag">Python</span>
+                            <span class="skill-tag">Data Science</span>
                         </div>
-                    </div>
-                    
-                    <div class="skill-category">
-                        <h3>Logiciels & Suite bureautique</h3>
-                        <div class="skill-tags">
-                            <span class="skill-tag">Office 365</span>
-                            <span class="skill-tag">SAGE</span>
-                        </div>
-                    </div>
-                    
-                    <div class="skill-category">
-                        <h3>Langues</h3>
-                        <div class="skill-tags">
-                            <span class="skill-tag level-advanced">Français (Très avancé)</span>
-                            <span class="skill-tag level-advanced">Anglais (Avancé)</span>
+                        <div class="social-links">
+                            <a href="#" title="GitHub"><i class="fab fa-github"></i></a>
+                            <a href="#" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                            <a href="#" title="Portfolio"><i class="fas fa-globe"></i></a>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <!-- Projects Section -->
-        <section id="projects" class="projects">
-            <div class="container">
-                <h2 class="section-title">Projets réalisés</h2>
-                <div class="projects-grid">
-                    <div class="project-card">
-                        <div class="project-header">
-                            <div class="project-icon">📅</div>
-                            <h3>Système de prise de rendez-vous</h3>
-                        </div>
-                        <p class="project-description">
-                            Application web permettant la gestion complète des rendez-vous 
-                            avec interface utilisateur intuitive et système de notifications.
-                        </p>
-                        <div class="project-tech">
-                            <span class="tech-tag">PHP</span>
-                            <span class="tech-tag">MySQL</span>
-                            <span class="tech-tag">HTML/CSS</span>
-                        </div>
-                    </div>
-                    
-                    <div class="project-card">
-                        <div class="project-header">
-                            <div class="project-icon">📄</div>
-                            <h3>Application de partage de documents</h3>
-                        </div>
-                        <p class="project-description">
-                            Plateforme collaborative en ligne pour le partage sécurisé 
-                            de documents avec gestion des droits d'accès.
-                        </p>
-                        <div class="project-tech">
-                            <span class="tech-tag">Laravel</span>
-                            <span class="tech-tag">Bootstrap</span>
-                            <span class="tech-tag">MySQL</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Contact Section -->
-        <section id="contact" class="contact">
-            <div class="container">
-                <h2 class="section-title">Contactez-moi</h2>
-                <div class="contact-content">
-                    <div class="contact-text">
-                        <h3>Discutons de votre projet</h3>
-                        <p>
-                            Je suis toujours ouvert à de nouvelles opportunités et défis. 
-                            N'hésitez pas à me contacter pour discuter de vos projets ou 
-                            pour toute collaboration.
-                        </p>
-                        <div class="contact-methods">
-                            <a href="mailto:thibautgrekov@gmail.com" class="contact-method">
-                                <span class="icon">📧</span>
-                                <span>thibautgrekov@gmail.com</span>
-                            </a>
-                            <a href="tel:074966707" class="contact-method">
-                                <span class="icon">📱</span>
-                                <span>074966707</span>
-                            </a>
-                            <div class="contact-method">
-                                <span class="icon">📍</span>
-                                <span>BP:2263 Libreville-IAI</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="contact-form-container">
-                        <form class="contact-form">
-                            <div class="form-group">
-                                <label for="name">Nom</label>
-                                <input type="text" id="name" name="name" required>
-                            </div>
-                            <div class="form-group">
-                                <label for="email">Email</label>
-                                <input type="email" id="email" name="email" required>
-                            </div>
-                            <div class="form-group">
-                                <label for="subject">Sujet</label>
-                                <input type="text" id="subject" name="subject" required>
-                            </div>
-                            <div class="form-group">
-                                <label for="message">Message</label>
-                                <textarea id="message" name="message" rows="5" required></textarea>
-                            </div>
-                            <button type="submit" class="btn btn-primary">Envoyer le message</button>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <footer class="footer">
+    <footer id="contact">
         <div class="container">
             <div class="footer-content">
-                <p>&copy; 2024 Thibaut Mermoz Grekovoungbo. Tous droits réservés.</p>
-                <div class="footer-interests">
-                    <span>Centres d'intérêts:</span>
-                    <span class="interest">📚 Lecture</span>
-                    <span class="interest">⚽ Sport</span>
+                <div class="footer-column">
+                    <h3>École d'Excellence</h3>
+                    <p>Formation d'excellence en informatique et systèmes d'information depuis 2005.</p>
+                    <p>Reconnue par l'État et partenaires des plus grandes entreprises du secteur.</p>
                 </div>
+                <div class="footer-column">
+                    <h3>Nos Formations</h3>
+                    <ul>
+                        <li><a href="#">Ingénieur SI</a></li>
+                        <li><a href="#">Analyste Programmeur</a></li>
+                        <li><a href="#">MIAGE</a></li>
+                        <li><a href="#">Master Pro</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Contact</h3>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i> 123 Rue de l'Innovation, 75000 Paris</li>
+                        <li><i class="fas fa-phone"></i> +33 1 23 45 67 89</li>
+                        <li><i class="fas fa-envelope"></i> contact@ecole-excellence.fr</li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Réseaux sociaux</h3>
+                    <ul>
+                        <li><a href="#"><i class="fab fa-facebook"></i> Facebook</a></li>
+                        <li><a href="#"><i class="fab fa-twitter"></i> Twitter</a></li>
+                        <li><a href="#"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+                        <li><a href="#"><i class="fab fa-instagram"></i> Instagram</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 École d'Excellence. Tous droits réservés.</p>
             </div>
         </div>
     </footer>
 
-    <script src="script.js"></script>
+     <script>
+        // Tab functionality
+        const tabBtns = document.querySelectorAll('.tab-btn');
+        const tabContents = document.querySelectorAll('.tab-content');
+
+        tabBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                const tabId = btn.getAttribute('data-tab');
+                
+                // Remove active class from all buttons and contents
+                tabBtns.forEach(btn => btn.classList.remove('active'));
+                tabContents.forEach(content => content.classList.remove('active'));
+                
+                // Add active class to clicked button and corresponding content
+                btn.classList.add('active');
+                document.getElementById(tabId).classList.add('active');
+            });
+        });
+
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
 </body>
 </html>
